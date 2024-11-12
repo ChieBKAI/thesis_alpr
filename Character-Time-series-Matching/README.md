@@ -13,9 +13,6 @@ pip install -r requirement.txt
 cd Vietnamese/
 python DETECTION.py
 ```
-<div align=center>
-<img src='Vietnamese/img/vn.jpg' width='600'>
-</div>
 
 
 

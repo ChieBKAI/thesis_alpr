@@ -161,7 +161,7 @@ def parse_opt():
     parser.add_argument('--iou-thres', type=float, default=0.5, help='NMS IoU threshold')
     parser.add_argument('--max-det', type=int, default=1000, help='maximum detections per image')
     parser.add_argument('--device', default='cpu', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
-    parser.add_argument('--video', type=str, default='demo3.mp4', help='video path')
+    parser.add_argument('--video', type=str, default='demo0.mp4', help='video path')
     parser.add_argument('--webcam', action='store_true', help='use webcam')
     parser.add_argument('--fps', type=int, default=24, help='Desired FPS for processing')
     opt = parser.parse_args()
